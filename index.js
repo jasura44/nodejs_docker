@@ -7,11 +7,6 @@ const app = express();
 app.use(express.json());
 
 // GET API endpoint
-app.get('/', (req, res) => {
-  res.json({ message: 'Hello World!' });
-});
-
-// GET API endpoint
 app.get('/api/hello', (req, res) => {
   res.json({ message: 'Hello World!' });
 });
