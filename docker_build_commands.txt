@@ -1,0 +1,11 @@
+docker build -t gunasagaransureshsg/my-node-app:1.0.0 .
+
+docker push gunasagaransureshsg/my-node-app:1.0.0
+
+docker run -it gunasagaransureshsg/my-node-app:1.0.0
+
+docker stop <container-id>
+
+docker rm <container-id>
+
+docker ps -a
